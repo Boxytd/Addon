@@ -1,6 +1,7 @@
 import express from 'express';
 import 'dotenv/config';
-import { AddonInterface, serveHTTP } from 'stremio-addon-sdk';
+import sdk from 'stremio-addon-sdk';
+const { AddonInterface, serveHTTP } = sdk;
 import tmdbScrape from './src/vidsrc.js';
 import fetch from 'node-fetch';
 
