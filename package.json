@@ -1,0 +1,14 @@
+{
+  "name": "vidsrc-stremio-addon",
+  "version": "1.0.3",
+  "description": "A self-contained Stremio add-on for VidSrc.",
+  "type": "module",
+  "main": "server.js",
+  "dependencies": {
+    "cheerio": "^1.0.0-rc.12",
+    "dotenv": "^16.4.5",
+    "express": "^4.19.2",
+    "node-fetch": "^3.3.2",
+    "stremio-addon-sdk": "^1.6.10"
+  }
+}
